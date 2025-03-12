@@ -35,6 +35,7 @@ function SectionSecond() {
           </div>
           <div className="w-full md:w-[250px] lg:w-[346px]">
             <img
+              loading="lazy"
               src={mockupApp.src}
               alt="An application mobile with system list"
               className="w-full"
