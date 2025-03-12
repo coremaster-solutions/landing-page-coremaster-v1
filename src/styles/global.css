@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #6edf5d;
+  --color-bg-primary: #020202;
+  --color-accent: #d7d8fd;
+}
+
+.menu-icon {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  & > div {
+    width: 32px;
+    height: 3px;
+    background: #fff;
+  }
+}

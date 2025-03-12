@@ -1,0 +1,33 @@
+---
+import Navbar from '@/components/Navbar';
+import '@/styles/global.css'
+import '@fontsource/poppins/300.css';
+import '@fontsource/poppins/400.css';
+import '@fontsource/poppins/500.css';
+import '@fontsource/poppins/600.css';
+import '@fontsource/poppins/700.css';
+
+const { title, description } = Astro.props;
+---
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<title>{title}</title>
+		<meta name="description" content={description} />
+	</head>
+	<body class="bg-bg-primary">
+		<main>
+			<Navbar />
+			<slot />
+		</main>		
+	</body>
+</html>
+
+<style>
+	body {
+		font-family: "Poppins", sans-serif;
+	}
+</style>
