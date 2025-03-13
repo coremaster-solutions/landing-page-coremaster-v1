@@ -9,32 +9,44 @@ function SectionThree() {
             <h1 className="text-primary text-[clamp(32px,5vw,75px)] font-bold w-full lg:w-[80%] text-center lg:text-left lg:leading-20.5">
               Fácil adaptación a tu negocio o empresa
             </h1>
-            <ul className="font-light">
-              <li className="text-white grid grid-cols-[24px_1fr] gap-2 items-center text-xl">
-                <PiCheckCircleFill className="text-primary" />
+            <ul className="font-light text-body">
+              <li className="text-white grid grid-cols-[24px_1fr] gap-2 lg:items-center">
+                <div>
+                  <PiCheckCircleFill className="text-xl text-primary" />
+                </div>
                 <span>Administra tu negocio desde tu celular.</span>
               </li>
-              <li className="text-white grid grid-cols-[24px_1fr] gap-2 items-center text-xl">
-                <PiCheckCircleFill className="text-primary" />
+              <li className="text-white grid grid-cols-[24px_1fr] gap-2 lg:items-center">
+                <div>
+                  <PiCheckCircleFill className="text-xl text-primary" />
+                </div>
                 <span>
                   Diferentes roles en el sistema por cada integrante de tu
                   equipo.
                 </span>
               </li>
-              <li className="text-white grid grid-cols-[24px_1fr] gap-2 items-center text-xl">
-                <PiCheckCircleFill className="text-primary" />
+              <li className="text-white grid grid-cols-[24px_1fr] gap-2 lg:items-center">
+                <div>
+                  <PiCheckCircleFill className="text-xl text-primary" />
+                </div>
                 <span>Soporte 24/7.</span>
               </li>
-              <li className="text-white grid grid-cols-[24px_1fr] gap-2 items-center text-xl">
-                <PiCheckCircleFill className="text-primary" />
+              <li className="text-white grid grid-cols-[24px_1fr] gap-2 lg:items-center">
+                <div>
+                  <PiCheckCircleFill className="text-xl text-primary" />
+                </div>
                 <span>Actualizaciones en tiempo real.</span>
               </li>
-              <li className="text-white grid grid-cols-[24px_1fr] gap-2 items-center text-xl">
-                <PiCheckCircleFill className="text-primary" />
+              <li className="text-white grid grid-cols-[24px_1fr] gap-2 lg:items-center">
+                <div>
+                  <PiCheckCircleFill className="text-xl text-primary" />
+                </div>
                 <span>Análisis y reportes detallados.</span>
               </li>
-              <li className="text-white grid grid-cols-[24px_1fr] gap-2 items-center text-xl">
-                <PiCheckCircleFill className="text-primary" />
+              <li className="text-white grid grid-cols-[24px_1fr] gap-2 lg:items-center">
+                <div>
+                  <PiCheckCircleFill className="text-xl text-primary" />
+                </div>
                 <span>Integración con múltiples plataformas.</span>
               </li>
             </ul>

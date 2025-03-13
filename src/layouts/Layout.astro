@@ -21,7 +21,7 @@ const { title, description } = Astro.props;
 	</head>
 	<body class="bg-bg-primary">
 		<main>
-			<Navbar />
+			<Navbar client:only="react" />
 			<slot />
 			<Footer />
 		</main>		
